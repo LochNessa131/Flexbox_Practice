@@ -27,6 +27,12 @@
   margin-left: 20px;
 }
 
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
 .header-container {
   color: #5995DA;
   background-color: #D6E9FE;
@@ -68,4 +74,27 @@
   border: 1px solid #fff;
   width: 300px;
   height: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
+
+.signup {
+  margin-left: auto;
 }
